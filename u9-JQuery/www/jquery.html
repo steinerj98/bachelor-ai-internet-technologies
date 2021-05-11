@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="css/kurs.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    </head>
+    <body>
+        
+        <div data-role="page" id="p1"> 
+            <div data-role="header"> 
+                <h1>Erste Seite</h1> 
+                </div><!-- /header --> 
+<div data-role="content"> 
+    Hier steht ganz viel text den keiner liest
+<p><a href="#p2" data-role="button" data-transition="flip"> naechste Seite</a>
+</p> 
+</div><!-- /content --> 
+<div data-role="footer"> 
+<h4>Winterfeldt</h4> </div><!-- /footer --> </div>
+<!-- /page -->
+
+<div data-role="page" id="p2"> 
+<div data-role="header"> 
+<h1>Erste Seite</h1> 
+</div><!-- /header --> 
+<div data-role="content"> 
+<p><a href="#p1" data-transition="slide"> Erste Seite</a>
+</p> 
+</div><!-- /content --> 
+<div data-role="footer"> 
+<h4>Winterfeldt</h4> </div>
+<!-- /footer --> </div>
+<!-- /page -->  
+
+
+    </body>
+</html>

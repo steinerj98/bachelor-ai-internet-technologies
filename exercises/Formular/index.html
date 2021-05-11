@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/style.css" type="text/CSS">
+        <script language="JavaScript" src="JS/formular.js"></script>
+    </head>
+    <body>
+        <h1>1. Ihre Daten</h1>
+        <form id="contact">
+            <div class="content">
+                <div class="content-item">
+                    <select type="text" name="betreff" id="betreff" >
+                        <option value="betreff">Betreff</option>
+                        <option value="probleme">Probleme</option>
+                    </select>
+                </div>
+
+                <div class="content-item">
+                    <select type="text" name="anrede" id="anrede">
+                        <option value="anrede">Anrede</option>
+                        <option value="herr">Herr</option>
+                        <option value="frau">Frau</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content-item">
+                    <label for="vorname">Vorname</label> 
+                    <input type="text" name="vorname" id="vorname" placeholder="Vorname" required><br>
+                </div>
+
+                <div class="content-item">
+                    <label for="nachname">Nachname</label> 
+                    <input type="text" name="nachname" id="nachname" placeholder="Nachname" required><br>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content-item">
+                    <label for="email">E-Mail</label> 
+                    <input type="text" name="email" id="email" placeholder="E-Mail" required><br>
+                </div>
+
+                <div class="content-item">
+                    <label for="firma">Firma</label> 
+                    <input type="text" name="firma" id="firma" placeholder="Firma" required><br>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content-item">
+                    <label for="straße">Straße</label> 
+                    <input type="text" name="straße" id="straße" placeholder="Straße" required><br>
+                </div>
+
+                <div class="content-item">
+                    <label for="hausnummer">Hausnummer</label> 
+                    <input type="text" name="hausnummer" id="hausnummer" placeholder="Hausnummer" required><br>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content-item">
+                    <label for="plz">Postleitzahl</label> 
+                    <input type="text" name="plz" id="plz" placeholder="Postleitzahl" required><br>
+                </div>
+
+                <div class="content-item">
+                    <label for="ort">Ort</label> 
+                    <input type="text" name="ort" id="ort" placeholder="Ort" required><br>
+                </div>
+            </div>
+
+            <button type="button" class="button" onclick="sendMessage()">Senden!</button> 
+        </form>
+
+        <div id="successSection" class="success-section">
+            <p>Message successfully sended!</p>
+        </div>
+
+        <div id="errorSection" class="error-section">
+            <p>Attention, an error has occurred</p>
+            <p id="errorMsg"></p>
+        </div>
+    </body>
+</html>

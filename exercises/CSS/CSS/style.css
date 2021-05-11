@@ -1,0 +1,61 @@
+.header {
+    height: 200px;
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    height: 50px;
+    background-color: lightsteelblue;
+    margin-top: 2.5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.content {
+    height: 300px;
+    display: grid;
+    margin: 5px;
+    grid-column-gap: 5px;
+    grid-template-columns: auto auto;
+}
+
+.content-item {
+    display: grid;
+    background-color: lightgray;
+    padding: 5px;
+    border: 1px gray;
+}
+
+.footer {
+    height: 50px;
+    background-color: lightyellow;
+    margin-top: 2.5px;
+}
+
+.footer a {
+    margin: 5px;
+    text-align: center;
+}

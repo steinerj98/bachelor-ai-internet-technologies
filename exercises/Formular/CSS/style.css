@@ -1,0 +1,25 @@
+.content {
+    display: grid;
+    margin: 5px;
+    grid-column-gap: 5px;
+    grid-template-columns: auto auto;
+}
+
+.content-item {
+    display: grid;
+    padding: 5px;
+}
+
+.button {
+    margin: 5px;
+}
+
+.error-section {
+    margin: 5px;
+    visibility: hidden;
+}
+
+.success-section {
+    margin: 5px;
+    visibility: hidden;
+}
